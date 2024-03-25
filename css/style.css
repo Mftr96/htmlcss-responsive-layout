@@ -90,7 +90,7 @@ footer p{
 
 /* ---------------------------------------------------------------- */
 
-/* MEDIA QUERY ----------------- */
+/* MEDIA QUERY TABLET --------------------------- */
 
 @media screen and (min-width:768px){
     .flex-container{
@@ -112,5 +112,22 @@ footer p{
         display: flex;
     }
 
+}
 
+/* ----------------------------------------- */
+
+/* MEDIA QUERY PC --------------------------------- */
+
+@media screen and (min-width:1020px) {
+    .flex-container{
+        width: 800px;
+        margin: 0 auto;
+    }
+
+    .planning-container{
+        width: 800px;
+        margin: 0 auto;
+        display: flex;
+    }
+    
 }
