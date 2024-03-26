@@ -26,6 +26,7 @@ nav{
 
 .perks{
     width: 100%;
+    margin-bottom: 4rem;
 }
 
 .flex-container{
@@ -35,6 +36,7 @@ nav{
 
 .long-card, .card{
     background-color: rgb(181, 221, 255);
+    margin-top: 2rem;
 }
 
 .text *{
@@ -116,7 +118,6 @@ nav{
 
 .profile-card{
     background-color: rgb(151, 146, 228) ;
-    border: 1px dashed black;
     border-radius: 25px;
     width: 90%;
     margin: 1rem auto;
@@ -148,12 +149,15 @@ nav{
 /* ---------------------------------------------------- */
 
 .benefits{
+    width: 100%;
     background-color: rgb(151, 146, 228);
+    padding-bottom: 0.5rem;
 }
 
 .benefits h2{
     text-align: center;
     color: white;
+    margin-bottom: 1rem;
 }
 
 .benefits-container{
@@ -199,15 +203,11 @@ nav{
 /* ABOUT US STYLE -------------------------------------- */
 
 
-.about-container{
-    border: 3px solid black;
-    margin: 0 auto;
+.about-container{    margin: 0 auto;
 }
 
 .about-text{
-    text-align: center;
-    border: 2px solid pink;
-    width: 70%;
+    text-align: center;    width: 70%;
     margin: 1rem auto;
 }
 
@@ -222,9 +222,7 @@ nav{
 
 .about-profile{
     width: 70%;
-    margin: 1rem auto;
-    border: 3px solid yellowgreen;
-}
+    margin: 1rem auto;}
 .about-profile img{
     width: 50%;
     border-radius: 100%;
@@ -330,6 +328,8 @@ footer p{
 /* MEDIA QUERY TABLET --------------------------- */
 
 @media screen and (min-width:768px){
+
+   
     .flex-container{
         display: flex;
         flex-wrap: wrap;
@@ -386,10 +386,6 @@ footer p{
         margin: 0 auto;
     }
 
-    .profile-container{
-        width: 800px;
-        margin: 0 auto;
-    }
 
     .benefits-container{
         width: 800px;
@@ -412,4 +408,18 @@ footer p{
         margin: 0 auto;
         
     }
+
+    /* ------------------ */
+    .testimonials{
+        width: 100%;
+    }
+    .profile-container{
+        width: 100%;
+    }
+
+    .profile-card{
+        width: 100%;
+        margin-top: 4rem;
+    }
+
 }
