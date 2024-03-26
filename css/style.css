@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: sans-serif;
 }
 
 
@@ -113,19 +114,87 @@ nav{
 
 .benefits h2{
     text-align: center;
+    color: white;
 }
 
 .benefits-container{
-    border: 1px dashed black;
-    width: 100%;
+    border: 1px dashed crimson;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.benefits-container h4{
+    color: rgb(159, 154, 230);
+    margin-bottom: 0.5rem;
+    font-size: 1.5rem;
+}
+
+.benefits-container h3{
+    color: rgb(151, 146, 228);
+    margin-bottom: 0.5rem;
+    font-size: 2rem;
 }
 
 .benefits-card{
     background-color: white;
     border:  1px dashed crimson;
-    width: calc(100% / 2 - 1rem);
+    margin-bottom: 2rem;
+    border-radius: 15px;
+    padding: 1rem;
 }
+
+.benefits-card p{
+    width: 100%;
+    margin-bottom: 0.5rem;
+    line-height: 2rem;
+}
+
+.benefits-card a{
+    background-color: rgb(151, 146, 228);
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 2rem;
+    border-radius: 15px;
+}
+
 /* --------------------------------------------------------- */
+
+/* ABOUT US STYLE -------------------------------------- */
+
+
+.about-container{
+    border: 3px solid black;
+    margin: 0 auto;
+}
+
+.about-text{
+    text-align: center;
+    border: 2px solid pink;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.about-text h2{
+    color: rgb(167, 162, 232);
+    margin-bottom: 0.5rem;
+}
+
+.about-text p{
+    width: 100%;
+}
+
+.about-profile{
+    width: 70%;
+    margin: 0 auto;
+    border: 3px solid yellowgreen;
+}
+.about-profile img{
+    width: 50%;
+    border-radius: 100%;
+}
+
+
+/* ------------------------------------------------------- */
 
 /*  GET STARTED STYLE -------------------------------- */
 
@@ -169,12 +238,15 @@ footer p{
     .about-container{
         display: flex;
     }
-.benefits-container{
+    .benefits-container{
     display: flex;
     flex-wrap: wrap;
     gap: 1rem;
+    }
 
-}
+    .benefits-card{
+        width: calc(100% / 2 - 1rem);
+    }
 
 }
 
