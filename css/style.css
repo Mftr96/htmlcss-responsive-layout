@@ -101,14 +101,43 @@ nav{
 
 /* TESTIMONIALS STYLE -------------------------------- */
 
+.testimonials-text p:first-of-type,
+.testimonials-text h2,
+.testimonials-text p:nth-of-type(2){
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.testimonials-text p:nth-of-type(2){
+    line-height: 1.5rem;
+}
+
+
 .profile-card{
     background-color: rgb(151, 146, 228) ;
     border: 1px dashed black;
+    border-radius: 25px;
+    width: 90%;
+    margin: 1rem auto;
 }
 
+
+.profile-container{
+    width: 70%;
+    margin: 1rem auto;
+}
 .profile-image{
     display: flex;
     justify-content: center;
+}
+
+.profile-text p{
+    width: 100%;
+    text-align: center;
+    color: rgb(226, 224, 248);
+    font-weight: bolder;
+    line-height: 1.5rem;
 }
 
 .profile-image img{
