@@ -57,6 +57,10 @@ nav{
     width: 50%;
 }
 
+.image svg{
+    width: 25%;
+}
+
 .image img{
     width: 100%;
     padding: 1rem;
