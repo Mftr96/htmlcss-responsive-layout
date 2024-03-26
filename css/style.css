@@ -13,12 +13,17 @@ header{
     display: flex;
     justify-content: space-around;
 }
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 /* ------------------------------------------------- */
 
 /* PERKS STYLE ---------------------------------------- */
 
 .perks{
-    background-color: yellow;
     width: 100%;
 }
 
@@ -26,8 +31,34 @@ header{
     border: 1px dashed black;
 }
 
+.long-card, .card{
+    background-color: rgb(181, 221, 255);
+    border: 1px dashed crimson;
+}
+
 .text *{
     width: 100%;
+    text-align: center;
+}
+
+.text h2{
+    color:rgb(0, 132, 253) ;
+}
+
+.text a{
+    background-color: rgb(0, 132, 253);
+    color: white;
+    text-decoration: none;
+    border-radius: 50%;
+    padding: 0.2rem 0.3rem;
+    margin: 1rem auto;
+    display: block;
+    width: 50%;
+}
+
+.image img{
+    width: 100%;
+    padding: 1rem;
 }
 
 
@@ -40,6 +71,21 @@ header{
 .strategic-planning{
     background-color: rgb(151, 146, 228);
 }
+
+[alt=planning-2]{
+    width: 100%;
+}
+
+.text-white{
+    color: white;
+    text-align: center;
+}
+
+.planning-container div:nth-child(2){
+    /* background-color: white; */
+    width: 100%;
+    margin: 0 auto;
+}
 /*  ------------------------------------------------ */
 
 /* TESTIMONIALS STYLE -------------------------------- */
@@ -47,6 +93,16 @@ header{
 .profile-card{
     background-color: rgb(151, 146, 228) ;
     border: 1px dashed black;
+}
+
+.profile-image{
+    display: flex;
+    justify-content: center;
+}
+
+.profile-image img{
+    width: 50%;
+    border-radius: 100%;
 }
 
 /* ---------------------------------------------------- */
@@ -62,9 +118,6 @@ header{
 .benefits-container{
     border: 1px dashed black;
     width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1rem;
 }
 
 .benefits-card{
@@ -105,7 +158,8 @@ footer p{
         gap: 2rem;
     }
     .long-card{
-        width: calc(100% / 2 - 2rem );
+        width: calc(100% / 3 *2 - 2rem);
+        display: flex;
     }
 
     .card{
@@ -115,6 +169,12 @@ footer p{
     .about-container{
         display: flex;
     }
+.benefits-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+
+}
 
 }
 
@@ -124,6 +184,9 @@ footer p{
 
 @media screen and (min-width:1020px) {
     /* CONTENUTI BOXED */
+    .header{
+        width: 800px;
+    }
     .flex-container{
         width: 800px;
         margin: 0 auto;
